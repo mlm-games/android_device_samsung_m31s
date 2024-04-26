@@ -16,7 +16,3 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_m31s.mk
 
-COMMON_LUNCH_CHOICES := \
-    lineage_m31s-userdebug \
-    lineage_m31s-user \
-    lineage_m31s-eng
