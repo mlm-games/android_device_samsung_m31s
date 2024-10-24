@@ -31,7 +31,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 BUILD_FINGERPRINT := "samsung/m31snsxx/m31s:12/SP1A.210812.016/M317FXXU3DWB3:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="m31snsxx-user 12 SP1A.210812.016 M317FXXU3DWB3 release-keys"
+	BuildDesc=$(call normalize-path-list, "m31snsxx-user 12 SP1A.210812.016 M317FXXU3DWB3 release-keys")
 
 ## Device configuration
 PRODUCT_NAME := lineage_m31s
