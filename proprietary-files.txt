@@ -91,10 +91,6 @@ vendor/lib64/libsensorlistener.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
 
-# Media
-vendor/etc/mixer_gains.xml
-vendor/etc/mixer_paths.xml
-
 # NFC
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
