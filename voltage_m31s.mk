@@ -19,7 +19,7 @@ $(call inherit-product, device/samsung/m31s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -34,10 +34,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	BuildDesc=$(call normalize-path-list, "m31snsxx-user 12 SP1A.210812.016 M317FXXU3DWB3 release-keys")
 
 ## Device configuration
-PRODUCT_NAME := lineage_m31s
+PRODUCT_NAME := voltage_m31s
 PRODUCT_DEVICE := m31s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M317F
 PRODUCT_MANUFACTURER := samsung
 
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1920
